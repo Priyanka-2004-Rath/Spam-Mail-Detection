@@ -76,3 +76,7 @@ A machine learning project that classifies emails as **spam** or **ham (not spam
 <img width="1577" height="480" alt="Screenshot 2025-09-17 000244" src="https://github.com/user-attachments/assets/a2945773-f8e2-4314-9b4f-80d67774cdfd" />
 
 
+## 👩‍💻 Author
+
+**Priyanka Rath**  
+Final Year B.Tech Student , Silicon University

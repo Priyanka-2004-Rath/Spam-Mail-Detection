@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spam Mail Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f9;
+            text-align: center;
+            padding: 50px;
+        }
+        textarea {
+            width: 60%;
+            height: 150px;
+            padding: 10px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #007BFF;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>📧 Spam Mail Detection</h1>
+    <form action="/predict" method="post">
+        <textarea name="message" placeholder="Enter your email message here..."></textarea><br>
+        <button type="submit">Check</button>
+    </form>
+
+    <div class="result">
+        {{ prediction_text }}
+    </div>
+</body>
+</html>
